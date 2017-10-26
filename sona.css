@@ -1,0 +1,554 @@
+/* background settings */
+body {
+    background-color:white;
+    margin-top: 0px;
+} 
+
+/* header settings to cover logo and menu */
+.header{
+    width: 120%;
+    margin-top: 0px;   
+}
+
+/* menu list */
+.list{
+   background-color:blue;
+    color: blue;
+    text-align: right;
+    font-family: fantasy;
+    display: inline;
+    height: 70px;
+}
+
+/* siona logo */
+.logo{
+    background-color: white;
+    width:130px;
+    height: 60px;
+    margin-top: 0px;
+    float:left;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+/* login and sign up button */
+.login a {
+    float: right;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-right: 17px;
+    display: block;
+    background-color: chartreuse;
+    width: 65px;
+    height: 45px;
+    font-family:inherit;
+    color:white;
+    font-size: 15px;
+    text-decoration: none;
+   padding-top: 10px;
+   padding-right: 14px;
+    border-radius: 4px;
+   
+}
+
+/* unorderlist list for the menu items */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-color: blue;
+    height: 70px;
+    position: fixed;
+    overflow: hidden;
+}
+
+/* let the menu items be listed horizontally and float to the right  */
+li {
+    display: inline;
+float: right;
+}
+
+/* menu list link settings */
+li a {
+    font-family:monospace;
+        margin-top: 10px;
+    display:block;
+    color: white;
+    padding: 11px 0 8px 16px;
+    text-decoration: none;
+     text-align: center;
+    padding: 16px 16px;
+    font-size: 15px;
+}
+ 
+/* gives a background color to the active menu in use*/
+list.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ 
+/* box settings for the login box*/
+* {
+    box-sizing:border-box
+}
+
+
+/* Slideshow container */
+.slideshowcontainer{
+  max-width: 120%;
+  position:inherit;
+  margin: auto;
+margin-top: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: royalblue;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+    font-family: cursive;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* the current slide background color*/
+.active, .dot:hover {
+  background-color: pink;
+}
+
+
+ 
+/* paragraph settings for home page contents */
+.home{
+   font-size: 20px;
+    font-family: serif; 
+    margin-left: -20px;
+    margin-top: 0px;
+    text-decoration: none;
+}
+
+ 
+/* class for home menu contents */
+.homecontent{
+float:left;
+    margin-left:100px;
+    margin-right: 100px;
+    color:black;
+    font-size: 17px;
+    text-align:justify;
+}
+
+ 
+/* class for home menu second content*/
+.homecontent2{
+    margin-top: 100px;
+    float:left;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.myslide{
+    width: 120%;
+}
+/* general class for the services,recruit,how can you help */
+.total{
+    align-content: center;
+    width:120%;
+    height:400px;
+    float:left;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: cursive;
+    font-size: 15px;
+   background-color:white;
+    margin-bottom: 30px;
+}
+
+ 
+/* paragraph class for the services,recruit,how can you help */
+.para{
+    color:blue;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+/* services settings */
+.services{
+    width:300px;
+    height:200px;
+    float:left;
+    margin-left: 50px;
+    font-family: sans-serif;
+}
+
+/* work with us */
+.recruit{
+      width:300px;
+    height:200px;
+    float:left;
+    margin-left: 100px; 
+    font-family: sans-serif;
+    
+}
+
+/* register with us */
+.partner{
+      width:300px;
+    height:200px;
+    float:left;
+    margin-left: 100px; 
+    font-family: sans-serif;
+}
+
+.catering{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float:left;
+    margin-left: 40px;
+    font-family: sans-serif;
+}
+/* about us page background image and settings */
+.about{
+    color:white;
+    background-image: url(about3.jpg);
+   
+    height: 200px;
+    width: 1350px;
+    margin-top: 600px;
+}
+
+/* who we are settings for about us page */
+.whoweare{
+    margin-left: 100px;
+    color:blue;
+}
+
+.whatwedo{
+     font-size: 17px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    
+}
+/* about us page write up */
+.abouttext{
+    margin-left: 100px;
+    margin-right: 100px;
+    color:black;
+    font-size: 17px;
+    text-align: justify;
+}
+
+/* 'we are siona' write up about us page */
+.siona{
+    color: blue;
+    margin-left: 80px;
+}
+
+/* mission statement about us page*/
+.mission{
+    text-align: center;
+    font-size: 17px;
+    width:350px;
+    height:200px;
+    float:left;
+    margin-left: 150px; 
+}
+
+/* vision statement about us page */
+.vision{
+    text-align: center;
+    font-size: 17px;
+    width:350px;
+    height:200px;
+    float:left;
+    margin-left: 350px; 
+}
+
+/* paragrapgh class for vison and mission statement */
+.para2{
+    color:blue;
+    font-family: sans-serif;
+    margin-left: 100px;
+     text-align: justify;
+    
+}
+
+
+/* team members  */
+.team{
+     color:black;
+    font-family: sans-serif;
+    margin-left: 0px;
+     text-align: justify;
+}
+.members{
+width:100%;
+height:50px;
+background-color:white;
+    color:blue;
+    margin-top: 190px;
+    padding-top: 3px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 8px;
+    
+    
+}
+
+
+
+/* image gallery for team members */
+div.img {
+  
+    margin:5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 150px;
+    margin-left: 60px;
+}	
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* general class for contact form and contact information */
+.over{
+    background-color: white;
+    width: 100%;
+    height:650px;       
+}
+
+/* contact page background image */
+.contact{
+    color:white;
+    background-image: url(customer.jpg);
+    height: 200px;
+    width: 100%;
+    margin-top: 270px;
+}
+
+/* contact us written in h1 */
+.contactus{
+    padding-top: 50px;
+    padding-left: 30px;
+    text-align: center;
+}
+
+/* contact us short write up on the background image*/
+.contactus2{
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px; 
+}
+
+/* send us your query' write up for contact form */
+.query{
+    padding-top: -10px;
+    float:right;
+    margin-right: 180px;
+     font-size: 15px;
+     font-family: sans-serif;
+}
+
+/* contact us class form */
+.form{
+  width: 500px;
+    height: 650px;
+    border-radius:10px;
+    float:right;
+    margin-right: 150px;
+    padding-left: 30px;
+    font-family: monospace;
+    font-size: 15px;
+    margin-top: 30px;
+    background-color: white;
+ }
+
+/* div class for contact us form*/
+.office1{
+    margin-top: 5px;
+    float:right;
+    margin-right: -100px;
+    width:500px;
+}
+
+
+/* customer support content for contact us  page */
+.office2{
+    float: left;
+    width:300px;
+    height:400px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.office3{
+    font-size: 15px;
+}
+/* our services and training page background color */
+.services{
+    height: 100px;
+    width:100%;
+    background-color:blue;
+    color: white;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+/* our training and services written in h1 in services background color */
+.training{
+    margin-left: 400;
+   float:left;
+    padding-top: 10px;
+}
+
+/* list of 'courses' written in brown color inside a table */
+.train{
+    color:black;
+}
+
+/* table class for table settings */
+.table{
+    margin-top: -30px;
+    float: left;
+    margin-left: 50px;
+}
+.change{
+    text-align: center;
+}
+
+
+/* class for registration form*/
+.form3{
+    margin-top: 0px;
+    font-size: 12px;
+    float:right;
+    margin-right: 30px;
+    width: 550px;
+    padding-left: 5px;
+}
+
+/* 'fill the form to register' write up for training form*/
+.course{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+
+/* apply class for the apply button used to submit application form */
+apply{
+    width:350px;
+    float: left;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+/* general footer class */
+.footer{
+    margin-top: 700px;
+     width:100%;
+    height:220px;
+    background-color: black;
+    font-size: 12px;
+}
+ 
+/* map class in footer menu */
+.map{
+  padding-top: 20px;
+    float: left;
+    margin-left: 30px;  
+}
+
+/* class for social icon used in footer */
+.social{
+     padding-top: 30px;
+    float: right;
+    margin-right: 10px;  
+}
+
+/* address class used in footer */
+.address{
+    padding-top: 80px;
+    color:white;
+    text-align: right;
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+/* private policy and others writeup in footer menu */
+
+.private{
+    padding-top: 20px;
+    color:white;
+    float: left;
+    margin-left: 30px;
+  
+}
+
+/* copy write writeup in footer */
+.copy{
+    padding-top: 20px;
+    color:white;
+   float:right;
+    margin-right: 10px;
+    
+}
+   
+
+
+
+
+
+
+
